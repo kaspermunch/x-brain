@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.git/
+
+steps/
+pilot/steps/
+.gwf*
