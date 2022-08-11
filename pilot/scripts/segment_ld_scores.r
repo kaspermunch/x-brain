@@ -17,7 +17,7 @@ lb2_snp = lds_seg$SNP[lb2]
 lb3_snp = lds_seg$SNP[lb3]
 lb4_snp = lds_seg$SNP[lb4]
 
-write.table(lb1_snp, paste(output_base_name, "_snp_group_1.txt", row.names=F, quote=F, col.names=F)
-write.table(lb1_snp, paste(output_base_name, "_snp_group_2.txt", row.names=F, quote=F, col.names=F)
-write.table(lb1_snp, paste(output_base_name, "_snp_group_3.txt", row.names=F, quote=F, col.names=F)
-write.table(lb1_snp, paste(output_base_name, "_snp_group_4.txt", row.names=F, quote=F, col.names=F)
+write.table(lb1_snp, paste(output_base_name, "_snp_group_1.txt", sep = ""), row.names=F, quote=F, col.names=F)
+write.table(lb1_snp, paste(output_base_name, "_snp_group_2.txt", sep = ""), row.names=F, quote=F, col.names=F)
+write.table(lb1_snp, paste(output_base_name, "_snp_group_3.txt", sep = ""), row.names=F, quote=F, col.names=F)
+write.table(lb1_snp, paste(output_base_name, "_snp_group_4.txt", sep = ""), row.names=F, quote=F, col.names=F)
