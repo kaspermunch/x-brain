@@ -128,7 +128,7 @@ chromosomes = ['1']
 
 prevalence = 0.01
 
-output_base_name = 'steps/gwa'
+output_base_name = 'test/gwa'
 pheno_file_name = modpath(output_base_name, suffix='.phen')
 
 target = gwf.target_from_template(f'ld_scores',
