@@ -56,3 +56,35 @@ Format of multi_GRMs.tx:
 test_group1
 test_group2
 ...    
+
+
+
+## Terminal 1:
+
+    srun --mem-per-cpu=24g --time=6:00:00 --account=clues --pty bash
+    hostname 
+
+## Terminal 2: 
+
+    ssh -L8888:localhost:8888 <hostname at terminal 1>
+
+## Terminal 1:
+
+    conda activate xbrain
+    jupyter lab
+
+**Full screen Mozilla:** right-click -> full-screen
+
+**Full screen NoMachine:** Ctrl-option-F
+
+**Exit Mozilla full-screen:** move cursor to top and right-click -> exit full-screen
+
+**Exit NoMachine full-screen:** Ctrl-option-F
+
+
+s
+
+crontab -e 
+
+0 0 * * * bash /home/ikmt/ChrXh2/people/kmt/x-brain/backup.sh
+
