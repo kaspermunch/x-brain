@@ -133,3 +133,4 @@ dmypy.json
 steps/
 pilot/steps/
 .gwf*
+data/
